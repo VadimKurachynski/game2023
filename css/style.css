@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 50px;
-    background-color: #63c9c7;
+    background-color: #91a2ec;
     text-align: center;
     color: rgb(21, 5, 94);
 
@@ -21,7 +21,7 @@
 
 .dance {
     max-width: 100%;
-    background-color: rgb(53, 162, 212);
+    /*background-color: rgb(180, 128, 58);*/
 }
 
 .duo {
@@ -32,7 +32,7 @@
 h1 {
     margin: 100px;
     font-size: 70px;
-    color: rgb(233, 20, 144);
+    color: rgb(68, 35, 17);
 }
 
 h3 {
@@ -41,7 +41,7 @@ h3 {
 
 h4 {
     font-size: 80px;
-    color: #63c3cc;
+    color: #c00e5e;
 }
 
 .iduo {
@@ -64,19 +64,20 @@ h4 {
 .wrapperZ {
     display: flex;
     flex-direction: column;
+
 }
 
 
 .headerZ {
     flex: 0 0 200px;
     background-color: #d43811;
-    background-image: linear-gradient(180deg, #d43811 10%, #63c9c7);
+    background-image: linear-gradient(180deg, #d49611 10%, #91a2ec);
 }
 
 .contentZ {
     flex: 0 0 3500px;
     /* background-color: blue; */
-    background-image: linear-gradient(180deg, #63c9c7 80%, #d43811);
+    background-image: linear-gradient(180deg, #91a2ec 80%, #d49611);
 
 }
 
@@ -84,7 +85,7 @@ h4 {
     display: flex;
     min-height: 1300px;
     justify-content: center;
-    background-image: linear-gradient(180deg, #63c9c7 80%, #d43811);
+    background-image: linear-gradient(180deg, #91a2ec 80%, #91a2ec);
 
     /* border: 5px solid red; */
     /* align-items:center; */
@@ -92,7 +93,7 @@ h4 {
 
 .footerZ {
     flex: 0 0 100px;
-    background-color: #d43811;
+    background-color: #91a2ec;
 
 }
 
@@ -102,7 +103,8 @@ h4 {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 50px;
-    background-color: #63c9c7;
+    background-image: linear-gradient(180deg, #91a2ec 10%, #91a2ec);
+    /*background-color: #9d9884;*/
     text-align: center;
     color: rgb(21, 5, 94);
 
@@ -155,7 +157,7 @@ h4 {
 
 .myb {
     font-size: 40px;
-
+    color: rgb(21, 5, 94);
 }
 
 .myb1 {
@@ -173,14 +175,14 @@ h4 {
 .tykva {
     font-size: 60px;
     border: 2px solid red;
-    color: #206903;
+    color: #e4ece0;
     box-shadow: 10px 10px 10px;
 }
 
 .podskazka {
     font-style: italic;
     font-size: 30px;
-
+    color: #e4ece0;
 
 }
 
@@ -226,7 +228,7 @@ h4 {
 
 .instr {
     font-size: 50px;
-    background-color: #63c9c7;
+    background-color: #e7b790;
     text-align: center;
 }
 
@@ -235,10 +237,10 @@ h4 {
     padding: 100px 0px 0px 0px;
     font-size: 40px;
     font-weight: 1000;
-    color: rgb(30, 112, 5);
+    color: rgb(35, 88, 136);
     align-items: center;
     text-align: center;
-    background-color: #63c9c7;
+    background-color: #e7b790;
     /* border: 2px solid red; */
 }
 
