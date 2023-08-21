@@ -19,7 +19,6 @@
 }
 
 
-
 .dance {
     max-width: 100%;
     background-color: rgb(53, 162, 212);
@@ -42,13 +41,13 @@ h3 {
 
 h4 {
     font-size: 80px;
-    color: red;
+    color: #63c3cc;
 }
 
 .iduo {
     max-width: 100%;
 
-    background-color: #63c9c7;
+    background-color: #d9c080;
 
 }
 
@@ -98,7 +97,6 @@ h4 {
 }
 
 
-
 .start2 {
     display: flex;
     flex-direction: column;
@@ -109,8 +107,6 @@ h4 {
     color: rgb(21, 5, 94);
 
 }
-
-
 
 
 .audiotrec-revers {
@@ -178,7 +174,7 @@ h4 {
     font-size: 60px;
     border: 2px solid red;
     color: #206903;
-    box-shadow: 10px 10px 10 px;
+    box-shadow: 10px 10px 10px;
 }
 
 .podskazka {
