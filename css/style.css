@@ -86,7 +86,7 @@ h4 {
     border: #1114d4 5px solid;
 }
 .headerZ {
-    height: 200px;
+    height: 300px;
     background-color: #d43811;
     background-image: linear-gradient(180deg, #d49611 10%, #91a2ec);
    border: #d43811 5px solid;
@@ -222,9 +222,11 @@ h4 {
 }
 
 .nameinput1 {
-    position: absolute;
+    /*position: absolute;*/
+
     left: 40%;
     margin: 20px;
+    border: #63c3cc 5px solid;
 
 }
 
