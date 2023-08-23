@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 .start {
     display: flex;
     flex-wrap: wrap;
@@ -73,36 +81,41 @@ h4 {
 .wrapperZ {
     display: flex;
     flex-direction: column;
-
+    min-height: 100vh;
+    min-width: 500px;
+    border: #1114d4 5px solid;
 }
-
-
 .headerZ {
-    flex: 0 0 200px;
+    height: 200px;
     background-color: #d43811;
     background-image: linear-gradient(180deg, #d49611 10%, #91a2ec);
+   border: #d43811 5px solid;
+
 }
 
 .contentZ {
-    flex: 0 0 3500px;
+    flex-grow: 1;
     /* background-color: blue; */
     background-image: linear-gradient(180deg, #91a2ec 80%, #d49611);
+    border: green 5px solid;
 
 }
 
-.contentZZ {
-    display: flex;
-    min-height: 1300px;
-    justify-content: center;
-    background-image: linear-gradient(180deg, #91a2ec 80%, #91a2ec);
-
-    /* border: 5px solid red; */
-    /* align-items:center; */
-}
+/*.contentZZ {*/
+/*    display: flex;*/
+/*    !*min-height: 650px;*!*/
+/*    !*justify-content: center;*!*/
+/*    background-image: linear-gradient(180deg, #91a2ec 80%, #91a2ec);*/
+/*    border: yellow 5px solid;*/
+/*    !* border: 5px solid red; *!*/
+/*    !* align-items:center; *!*/
+/*}*/
 
 .footerZ {
-    flex: 0 0 100px;
-    background-color: #91a2ec;
+    flex-shrink: 0;
+    background-image: linear-gradient(180deg, #d49611 80%, #d49611);
+    border: #63c3cc 5px solid;
+    height: 100px;
 
 }
 
