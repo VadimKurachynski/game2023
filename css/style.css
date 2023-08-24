@@ -79,7 +79,7 @@ h4 {
 }
 
 body{
-min-width: 350px;
+min-width: 440px;
 }
 
 
@@ -88,7 +88,7 @@ min-width: 350px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    min-width: 350px;
+    /*min-width: 350px;*/
     border: #1114d4 5px solid;
 }
 .headerZ {
@@ -104,8 +104,26 @@ min-width: 350px;
     /* background-color: blue; */
     background-image: linear-gradient(180deg, #91a2ec 80%, #d49611);
     border: green 5px solid;
-
 }
+
+.kod{
+    border: green 5px solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 420px;
+}
+
+
+
+
+.footerZ {
+    flex-shrink: 0;
+    background-image: linear-gradient(180deg, #d49611 80%, #d49611);
+    border: #da5c17 5px solid;
+    height: 100px;
+}
+
 
 /*.contentZZ {*/
 /*    display: flex;*/
@@ -116,15 +134,6 @@ min-width: 350px;
 /*    !* border: 5px solid red; *!*/
 /*    !* align-items:center; *!*/
 /*}*/
-
-.footerZ {
-    flex-shrink: 0;
-    background-image: linear-gradient(180deg, #d49611 80%, #d49611);
-    border: #63c3cc 5px solid;
-    height: 100px;
-
-}
-
 
 .start2 {
     display: flex;
@@ -230,9 +239,9 @@ min-width: 350px;
 .nameinput1 {
     /*position: absolute;*/
 
-    left: 40%;
-    margin: 20px;
-    border: #63c3cc 5px solid;
+    /*left: 40%;*/
+    /*margin: 20px;*/
+    border: #8acc63 5px solid;
 
 }
 
