@@ -89,13 +89,13 @@ min-width: 530px;
     flex-direction: column;
     min-height: 100vh;
     /*min-width: 350px;*/
-    border: #1114d4 5px solid;
+    /*border: #1114d4 5px solid;*/
 }
 .headerZ {
     height: 300px;
     background-color: #d43811;
     background-image: linear-gradient(180deg, #d49611 10%, #91a2ec);
-   border: #d43811 5px solid;
+   /*border: #d43811 5px solid;*/
     padding: 20px;
 }
 
@@ -103,11 +103,11 @@ min-width: 530px;
     flex-grow: 1;
     /* background-color: blue; */
     background-image: linear-gradient(180deg, #91a2ec 80%, #d49611);
-    border: green 5px solid;
+    /*border: green 5px solid;*/
 }
 
 .kod{
-    border: green 5px solid;
+    /*border: green 5px solid;*/
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -120,7 +120,7 @@ min-width: 530px;
 .footerZ {
     flex-shrink: 0;
     background-image: linear-gradient(180deg, #d49611 80%, #d49611);
-    border: #da5c17 5px solid;
+    /*border: #da5c17 5px solid;*/
     height: 100px;
 }
 
@@ -241,7 +241,7 @@ min-width: 530px;
 text-align: center;
     /*left: 40%;*/
     /*margin: 20px;*/
-    border: #8acc63 5px solid;
+    /*border: #8acc63 5px solid;*/
 
 }
 
