@@ -22,16 +22,16 @@ function prov() {
   let title = document.getElementsByTagName("title")[0].innerHTML;
   let otvet = "";
   switch (title) {
-    case "1": otvet = "Открытка"; break;
-    case "2": otvet = "Ягода малинка"; break;
-    case "3": otvet = "Мальчик на девятке"; break;
-    case "4": otvet = "Федерико Феллини"; break;
-    case "5": otvet = "Прикольная"; break;
-    case "6": otvet = "Пикачу"; break;
-    case "7": otvet = "Витаминка"; break;
-    case "8": otvet = "Малиновая лада"; break;
-    case "9": otvet = "Солнце Монако"; break;
-    case "10": otvet = "Чак Норрис"; break;
+    case "1": otvet = "Makeba"; break;
+    case "2": otvet = "Вот такой пацан"; break;
+    case "3": otvet = "Девочка бандитка"; break;
+    case "4": otvet = "Холодно"; break;
+    case "5": otvet = "Fairytale"; break;
+    case "6": otvet = "Yesterday"; break;
+    case "7": otvet = "Gangnam style"; break;
+    case "8": otvet = "За деньги да"; break;
+    case "9": otvet = "На часах ноль-ноль"; break;
+    case "10": otvet = "Queencard"; break;
 
   }
   let el = document.getElementById('audiotext1').value;
