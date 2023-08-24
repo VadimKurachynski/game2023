@@ -78,11 +78,17 @@ h4 {
 
 }
 
+body{
+min-width: 350px;
+}
+
+
+
 .wrapperZ {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    min-width: 500px;
+    min-width: 350px;
     border: #1114d4 5px solid;
 }
 .headerZ {
