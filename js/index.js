@@ -53,7 +53,7 @@ function prov() {
 function provglavnaja() {
   var el = document.getElementById('kod').value;
   el = el.toLowerCase();
-  if (el == "111") {
+  if (el == "47164029") {
     document.getElementById('dkod').style.display = 'initial';
     document.getElementById('messagekod').value = "ВЕРНО!"
   } else {
